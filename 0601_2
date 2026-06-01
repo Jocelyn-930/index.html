@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>工作堆積如山，不如先去釜山</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "微軟正黑體", sans-serif;
+  background: #fafafa;
+}
+
+header {
+  background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+.day {
+  margin-bottom: 40px;
+}
+
+.day h2 {
+  color: #ff6f91;
+  margin-bottom: 15px;
+}
+
+/* 卡片排版 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 15px;
+}
+
+/* 卡片 */
+.card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.title {
+  font-weight: bold;
+  color: #ff6f91;
+  margin-bottom: 5px;
+}
+
+/* 小標籤 */
+.tag {
+  display: inline-block;
+  background: #ffe4ec;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+🧚‍♀️ Jocelyn的釜山旅行
+</header>
+
+<div class="container">
+
+<!-- Day 1 -->
+<div class="day">
+<h2>Day 1：海雲台</h2>
+
+<div class="grid">
+
+<a class="card" href="https://maps.google.com/?q=海雲台" target="_blank">
+<img src="https://source.unsplash.com/400x300/?busan,beach">
+<div class="card-content">
+<div class="title">🌊 海雲台</div>
+<div>散步＋看海</div>
+<div class="tag">景點</div>
+</div>
+</a>
+
+<a class="card" href="https://maps.google.com/?q=釜山豬肉湯飯" target="_blank">
+<img src="https://source.unsplash.com/400x300/?korean,food">
+<div class="card-content">
+<div class="title">🍜 豬肉湯飯</div>
+<div>必吃在地美食</div>
+<div class="tag">美食</div>
+</div>
+</a>
+
+</div>
+</div>
+
+<!-- Day 2 -->
+<div class="day">
+<h2>Day 2：甘川文化村</h2>
+
+<div class="grid">
+
+<a class="card" href="https://maps.google.com/?q=甘川文化村" target="_blank">
+<img src="https://source.unsplash.com/400x300/?colorful,village">
+<div class="card-content">
+<div class="title">📸 甘川文化村</div>
+<div>拍照天堂</div>
+<div class="tag">景點</div>
+</div>
+</a>
+
+<a class="card" href="https://maps.google.com/?q=南浦洞" target="_blank">
+<img src="https://source.unsplash.com/400x300/?shopping,street">
+<div class="card-content">
+<div class="title">🛍️ 南浦洞</div>
+<div>逛街買東西</div>
+<div class="tag">購物</div>
+</div>
+</a>
+
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
